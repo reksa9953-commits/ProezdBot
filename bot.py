@@ -25,4 +25,3 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
 
 if __name__ == "__main__":
     print("Бот Proezd запущен")
-    app.run_polling()
